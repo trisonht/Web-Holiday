@@ -23,6 +23,7 @@ nextBtn.onclick = function() {
 
 }
 
+
 // prevBtn.onclick = function() {
 //     num--
 //     if( num < 0) {
