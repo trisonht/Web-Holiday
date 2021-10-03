@@ -7,7 +7,7 @@ const slider = $('.banner__slider')
 const nextBtn = $('.banner__btn-right')
 const prevBtn = $('.banner__btn-left')
 const bannerText = $$('.banner-text')
-const backgImage = ['/assets/img/skiing.jpg', '/assets/img/7.jpg']
+const backgImage = ['https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/skiing-slider-img-1.jpg', 'https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/skiing-slider-img-2.jpg']
 
 
 nextBtn.onclick = function() {
