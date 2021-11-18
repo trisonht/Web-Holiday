@@ -7,6 +7,7 @@
 }
 
 * {
+    margin: 0;
     box-sizing: inherit;
 }
 
@@ -42,12 +43,16 @@ p {
     margin: 0;
 }
 
+.d-none {
+    display: none;
+}
+
 .active {
     color: #3fd0d4 !important;
 }
 
-.active-bg {
-    background-color: #3fd0d4;
+.bt__active {
+    background-color: #3fd0d4 !important;
 }
 
 /* responsive */
@@ -107,6 +112,10 @@ p {
     height: 2px;
     transition: width 0.3s ease-out;
     
+}
+
+.ytp-impression-link {
+    display: none !important;
 }
 
 .header__item-link:hover::after {
